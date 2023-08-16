@@ -1,0 +1,27 @@
+{
+  "name": "shelf-log",
+  "version": "1.0.0",
+  "description": "Book Record management server build with NodeJS and Express",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "dev":"nodemon index.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruuvnarang/book-record-management.git"
+  },
+  "author": "Dhruv Narang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruuvnarang/book-record-management/issues"
+  },
+  "homepage": "https://github.com/dhruuvnarang/book-record-management#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
